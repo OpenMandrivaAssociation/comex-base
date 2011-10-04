@@ -87,14 +87,3 @@ rm -rf %{buildroot}
 %{_datadir}/pkgconfig/%{name}.pc
 
 
-
-%changelog
-* Tue Oct 04 2011 Armando Basile <hmandevteam@gmail.com> 0.1.8.4-1mdv2012.0
-- release 0.1.8.4
-- renew PCSC Context each reset request
-
-* Thu Sep 29 2011 Armando Basile <hmandevteam@gmail.com> 0.1.8.1-1mdv2012.0
-- release 0.1.8.1
-
-* Wed Sep 21 2011 Armando Basile <hmandevteam@gmail.com> 0.1.7.3-1mdv2012.0
-- release 0.1.7.3
