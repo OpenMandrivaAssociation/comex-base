@@ -1,6 +1,6 @@
 Summary:   Base component for comex project
 Name:      comex-base
-Version:   0.1.8.4
+Version:   0.1.8.5
 Release:   %mkrel 1
 License:   GPLv2
 #ExcludeArch: ppc64
@@ -54,7 +54,7 @@ phoenix serial reader.
 %else
   cp -f %{SOURCE1} comex-base/comex-base.snk
 %endif
-%configure2_5x --libdir=%_prefix/lib 
+%configure2_5x --prefix=/usr --libdir=%_prefix/lib 
 %make
 
 %install
@@ -85,5 +85,4 @@ rm -rf %{buildroot}
 %files devel
 %defattr(-,root,root,-)
 %{_datadir}/pkgconfig/%{name}.pc
-
 
