@@ -86,3 +86,20 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %{_datadir}/pkgconfig/%{name}.pc
 
+
+
+%changelog
+* Sun Oct 30 2011 Armando Basile <hman@mandriva.org> 0.1.8.5-1
++ Revision: 707871
+- release 0.1.8.5
+- removed changelog section from spec file
+
+* Tue Oct 04 2011 Armando Basile <hman@mandriva.org> 0.1.8.4-1
++ Revision: 702867
+- added tarball
+- release 0.1.8.4
+
+* Fri Sep 23 2011 Armando Basile <hman@mandriva.org> 0.1.7.3-1
++ Revision: 701155
+- import comex-base
+
