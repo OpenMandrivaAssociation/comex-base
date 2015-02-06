@@ -1,7 +1,7 @@
 Summary:   Base component for comex project
 Name:      comex-base
 Version:   0.1.8.5
-Release:   %mkrel 1
+Release:   2
 License:   GPLv2
 #ExcludeArch: ppc64
 Group:     Office
