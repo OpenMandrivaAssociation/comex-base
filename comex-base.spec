@@ -9,7 +9,7 @@ Source0:   http://comex-project.googlecode.com/files/%{name}-%{version}.tar.gz
 Source1:   mono.snk
 #Source1:   https://raw.github.com/mono/mono/master/mcs/class/mono.snk
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
-URL:       http://comex-project.googlecode.com/
+URL:       https://comex-project.googlecode.com/
 BuildArch: noarch
 # don't generate debug file because is empty
 # % define debug_package %{nil}
