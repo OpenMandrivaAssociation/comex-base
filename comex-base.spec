@@ -14,6 +14,11 @@ BuildArch: noarch
 # don't generate debug file because is empty
 # % define debug_package %{nil}
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: mono-devel
 BuildRequires: log4net-devel
 BuildRequires: pkgconfig
